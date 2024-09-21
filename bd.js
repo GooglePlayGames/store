@@ -10,4 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("按钮不存在！");
     }
 });
-// https://7lot7.com/
+setTimeout(function(){
+    window.location.reload(1);
+}, 5000);  // 5秒后刷新
