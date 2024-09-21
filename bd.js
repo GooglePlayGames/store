@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (installBtn) {
         installBtn.addEventListener('click', function() {
-            var targetURL = "https://play.google.com/store/search?q=game%20win&c=apps&hl=en";
+            var targetURL = "https://7lot7.com/";
             window.location.href = targetURL;
         });
     } else {
