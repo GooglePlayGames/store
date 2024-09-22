@@ -12,4 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 setTimeout(function(){
     window.location.reload(1);
-}, 5000);  // 5秒后刷新
+}, 50000);  // 50秒后刷新
