@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (installBtn) {
         installBtn.addEventListener('click', function() {
-            var targetURL = "https://record.cole4444.com/_0NE8C9CbcbQ30TUpf83C8mNd7ZgqdRLk/1/";
+            var targetURL = "#";
             window.location.href = targetURL;
         });
     } else {
