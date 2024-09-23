@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (installBtn) {
         installBtn.addEventListener('click', function() {
-            var targetURL = "https://u.town/2166/";
+            var targetURL = "https://googleplaygames.github.io/store/";
             window.location.href = targetURL;
         });
     } else {
